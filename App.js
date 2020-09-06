@@ -7,8 +7,9 @@ import MealsNavigator from "./navigation/MealsNavigator";
 
 const FetchFonts = () => {
   return Font.loadAsync({
-    "circular-std": require("./assets/fonts/CircularStd-Book.ttf"),
-    "circular-std-bold": require("./assets/fonts/CircularStd-Medium.ttf"),
+    "KumbhSans-Light": require("./assets/fonts/KumbhSans-Light.ttf"),
+    "KumbhSans-Regular": require("./assets/fonts/KumbhSans-Regular.ttf"),
+    "KumbhSans-Bold": require("./assets/fonts/KumbhSans-Bold.ttf"),
   });
 };
 
